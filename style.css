@@ -1,0 +1,118 @@
+html, body {
+	font-family: 'Poiret One', cursive;	height: 100%;
+	color: #E6E6E6;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+h1 {
+	margin: 0;
+	font-size: 150px;
+	font-weight: normal;
+}
+h2 {
+	margin: 0;
+	font-size: 120px;
+	font-weight: normal;
+}
+h3 {
+	margin: 0;
+	font-size: 40px;
+	font-weight: normal;
+}
+h4 {
+	margin: 0;
+	font-size: 40px;
+	font-weight: normal;
+	padding-top: 40px;
+	font-style: italic; 
+}
+p {
+	margin: 0;
+	font-size: 40px;
+	font-weight: normal;
+}
+a {
+	text-decoration: bold;
+	color: white;
+}
+li {
+	font-size: 40px;
+}
+.language {
+	float: right;
+	margin: 0;
+	font-size: 70px;
+	padding-top: 30px;
+}
+::selection {
+	color: yellow;
+}
+.title {
+	background-color: #FFAE3D;
+	padding-top: 95px;
+    padding-right: 30px;
+    padding-bottom: 150px;
+    padding-left: 200px;
+}
+.biography {
+	background-color: #8B82F5;
+	padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+}
+.projects {
+	background-color: #E05858;
+	padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.skills {
+	background-color: #C466C3;
+	padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.academics {
+	background-color: #21B595;
+	padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.contact {
+	background-color: #51E893;
+	padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.small {
+	margin: 0;
+	font-size: 90px;
+	font-weight: normal;
+}
+.icon {
+	margin: 0;
+	padding-top: 100px;
+	padding-right: 30px;
+	width: 20%;
+	height: 20%;
+}
+.contactlink {
+	margin: 0;
+	padding-top: 10px;
+	padding-right: 30px;
+	width: 20%;
+	height: 20%;
+
+}
+.potato {
+	margin: 0;
+	padding-top: 10px;
+	width: 40%;
+	height: 40%;
+}
