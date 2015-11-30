@@ -7,12 +7,12 @@ html, body {
 }
 h1 {
 	margin: 0;
-	font-size: 150px;
+	font-size: 240px;
 	font-weight: normal;
 }
 h2 {
 	margin: 0;
-	font-size: 120px;
+	font-size: 150px;
 	font-weight: normal;
 }
 h3 {
@@ -52,8 +52,8 @@ li {
 	background-color: #FFAE3D;
 	padding-top: 95px;
     padding-right: 30px;
-    padding-bottom: 150px;
-    padding-left: 200px;
+    padding-bottom: 200px;
+    padding-left: 300px;
 }
 .biography {
 	background-color: #8B82F5;
@@ -92,7 +92,7 @@ li {
 }
 .small {
 	margin: 0;
-	font-size: 90px;
+	font-size: 130px;
 	font-weight: normal;
 }
 .icon {
