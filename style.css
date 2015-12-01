@@ -5,7 +5,7 @@ html, body {
 }
 h1 {
 	margin: 0;
-	font-size: 2000%;
+	font-size: 1100%;
 	font-weight: normal;
 }
 h2 {
@@ -27,7 +27,7 @@ h4 {
 }
 p {
 	margin: 0;
-	font-size: 500%;
+	font-size: 300%;
 	font-weight: normal;
 }
 a {
@@ -38,7 +38,6 @@ li {
 	font-size: 40px;
 }
 .language {
-	float: right;
 	margin: 0;
 	font-size: 70px;
 	padding-top: 30px;
@@ -50,6 +49,7 @@ li {
 	float: center;
 	padding-top: 5%;
 	padding-left: 5%;
+	padding-right: 20%;
 	padding-bottom: 10%;
 
 }
@@ -91,14 +91,14 @@ li {
 }
 .contact {
 	background-color: #51E893;
-	padding-top: 100px;
+	padding-top: 8%;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
 }
 .small {
 	margin: 0;
-	font-size: 130px;
+	font-size: 500%;
 	font-weight: normal;
 }
 .icon {
