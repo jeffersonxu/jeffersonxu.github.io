@@ -48,9 +48,9 @@ li {
 .title {
 	float: center;
 	padding-top: 5%;
-	padding-left: 5%;
-	padding-right: 20%;
-	padding-bottom: 10%;
+	padding-left: 45%;
+	padding-right: 1%;
+	padding-bottom: 4%;
 
 }
 .subtitle {
@@ -58,7 +58,8 @@ li {
 	color: #F0F2F2;
 	padding-top: 2%;
 	padding-left: 9%;
-	padding-bottom: 5%;
+	padding-right: 9%;
+	padding-bottom: 3%;
 
 }
 .biography {
