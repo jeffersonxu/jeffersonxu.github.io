@@ -1,7 +1,6 @@
 html, body {
 	font-family: 'Poiret One', cursive;	height: 100%;
 	margin: 0;
-	padding: 0;
 }
 h1 {
 	margin: 0;
@@ -38,7 +37,6 @@ li {
 	font-size: 40px;
 }
 .language {
-	margin: 0;
 	font-size: 70px;
 	padding-top: 30px;
 }
@@ -49,53 +47,48 @@ li {
 	float: center;
 	padding-top: 5%;
 	padding-left: 45%;
-	padding-right: 1%;
 	padding-bottom: 4%;
 
 }
 .subtitle {
-	background-color: #D93240;
+	background-color: #6BCAE2;
 	color: #F0F2F2;
 	padding-top: 2%;
 	padding-left: 9%;
-	padding-right: 9%;
 	padding-bottom: 3%;
 
 }
 .biography {
-	background-color: #0F5959;
-	padding-top: 100px;
-    padding-right: 30px;
-    padding-bottom: 60px;
-    padding-left: 80px;
+	background-color: #D93240;
+	color: white;
+	padding-top: 5%;
+    padding-bottom: 6%;
+	padding-left: 9%;
 }
 .projects {
-	background-color: #66b3cc;
-	padding-top: 100px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+	padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
 }
 .skills {
-	background-color: #638CA6;
-	padding-top: 100px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+	padding-top: 4%;
+    padding-bottom: 8%;
+    padding-left: 30%;
+    padding-right: 10%;
 }
 .academics {
-	background-color: #21B595;
-	padding-top: 100px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+	background-color: #FFCC00;
+	color: white;
+	padding-top: 4%;
+    padding-bottom: 7%;
+    padding-left: 30%;
 }
 .contact {
-	background-color: #51E893;
+	background-color: #FE8402;
+	color: white;
 	padding-top: 8%;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    padding-bottom: 5%;
+    padding-left: 35%;
 }
 .small {
 	margin: 0;
@@ -105,14 +98,14 @@ li {
 .icon {
 	margin: 0;
 	padding-top: 100px;
-	padding-right: 30px;
-	width: 15%;
-	height: 15%;
+	width: 13%;
+	height: 13%;
 }
 .contactlink {
 	margin: 0;
-	padding-top: 10px;
-	padding-right: 30px;
+	padding-top: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
 	width: 20%;
 	height: 20%;
 
@@ -120,6 +113,6 @@ li {
 .potato {
 	margin: 0;
 	padding-top: 10px;
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: 30%;
 }
