@@ -39,6 +39,19 @@ a {
 li {
 	font-size: 30px;
 }
+#title {
+	display: flex;
+}
+
+#titleLeft {
+	width: 220px;
+	background: white;
+}
+#titleRight {
+	flex: 1;
+
+	background: black;
+}
 .language {
 	font-size: 70px;
 	padding-top: 30px;
