@@ -71,10 +71,10 @@ li {
 	color: #F0F2F2;
 	padding-top: 2%;
 	padding-left: 9%;
-	padding-bottom: 3%;
+	padding-bottom: 2%;
 
 }
-.biography {
+#biography {
 	background-color: #D93240;
 	color: white;
 	padding-top: 5%;
@@ -86,10 +86,10 @@ li {
     padding-bottom: 5%;
     padding-left: 10%;
 }
-.skills {
+#skills {
 	padding-top: 4%;
     padding-bottom: 8%;
-    padding-left: 30%;
+    padding-left: 40%;
     padding-right: 10%;
 }
 .academics {
