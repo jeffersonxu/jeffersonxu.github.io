@@ -3,11 +3,12 @@
 	color: white;
 }
 #titleLeft{
-	background-color: #6ed3cf;
-	padding-left: 340px;
-	padding-top: 60px;
-	padding-bottom: 20px;
 	height: 100vh;
+	padding-top: 5%;
+	padding-bottom: 4%;
+}
+#titleColor{
+	background-color: #6ed3cf;
 }
 #titleIcon{
 	padding-left: 20px;
@@ -20,10 +21,10 @@
 }
 
 #title h1{
-	font-size: 170px;
+	font-size: 15em;
 }
 #title h2{
-	font-size: 50px;
+	font-size: 3em;
 }
 .homeButton:hover{
 	background-color: black;
@@ -40,8 +41,11 @@
 	#title small{
 		font-size: 35px;
 	}
-	#title{
-		padding: 0px;
+	#titleLeft{
+		padding-left: 50px;
+	}
+	#titleLeft h2{
+		font-size: 40px;
 	}
 }
 @media screen and (max-width: 900px){
@@ -53,6 +57,9 @@
 	}
 	#title small{
 		font-size: 30px;
+	}
+	#titleLeft{
+		padding-left: 30px;
 	}
 }
 
@@ -66,6 +73,23 @@
 	#title small{
 		font-size: 30px;
 	}
+}
+@media screen and (max-width: 400px){
+	#title h1{
+		font-size: 54px;
+	}
+	#title h2{
+		font-size: 20px;
+	}
+	#titleLeft{
+		padding-top: 10px;
+	}
+	#scrollButton{
+		padding-top: 10px;
+		font-size: 30px;
+	}
+
+
 }
 /* End of media queries for title */
 #aboutMe{
