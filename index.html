@@ -6,13 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="style/style.css">
+	
   <link rel="stylesheet" type="text/css" href="style/animate.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style/main.css">
 
 </head>
 <body>
@@ -26,119 +27,79 @@
   </nav> --> 
 
   <div class="page-content">
-          <div id="titleColor">
-
-    <div class="container">
-
-        <div class="row" id="title">
-          <div class="col-md-12 col-lg-12" id="titleLeft">
-              <h2 class="animated fadeInLeftBig">Hello There</h2>
+      <div id="titleColor">
+        <div class="row col-md-12" id="title">
             <div class="animated fadeInRightBig">
+              <h2 class="animated fadeInLeftBig">Hello There</h2>
               <h1 >My name is </h1>
               <h1>Jefferson Xu</h1>
-              <small>(Pronounced like a shoe on a foot)</small>
+              <h3>~Pronounced like a shoe on a foot</h3>
             </div>
             
-            <div class="animated fadeInLeftBig" id="titleBlurb">
-              <h2><a href="mailto:jeffersonshoe@gmail.com"><strong>Contact Me</strong></a>, that is if I'm not playing games<i class="fa fa-gamepad fa-2x" id="titleIcon"></i></h2>
-            </div>
+            <button href="mailto:jeffersonshoe@gmail.com" class="button button1">Contact Me</button>
 
-            <center>
-            <a class="smoothScroll animated fadeInUp" href="#personal"><i class="fa fa-chevron-circle-down fa-4x" id="scrollButton"></i></a>
-            </center>
-
-        </div>
-          </div>      
+            <!-- 
+            <a class="smoothScroll animated fadeInUp" href="#personal"><i class="fa fa-chevron-circle-down fa-4x" id="scrollButton"></i></a> -->
         </div>
       </div>
 
-      <div class="container">
-        <div class="row animated fadeInUp" id="aboutMe">
-          <div class="col-md-6" id="personal">
-              <h1>About Me</h1>
-              <h2>Image of me in a circle</h2>
-          </div>
-          
-          <div class="col-md-6" id="info">
-            <h1>Short little bio </h1>
-            <p>Some say I have an addiction with pusheens, but I say they are friggin adorable. I am a fourteen-year old programmer from NJ in 9th grade. I live for video games and movies, the amount of pokemon I have played is not measurable. I'm still gradually learning little bits and pieces to the wonderful world of programming. Just for fun here's a button that makes a meow sound.</p>
-
-            <button type="button" class="buttonCat">Meow</button>
-
-            <p>My main experience is with web development, making things look pretty is PRETTY fun (you better have laughed at that pun or else I will hunt you down). </p>
-            
-          </div>
-
+      <div class="row animated fadeInUp" id="about-me">
+        <div class="col-md-6">
+            <h1>About Me</h1>
+            <h2>Image of me in a circle</h2>
         </div>
-        </div>
-      <div>
-
-      <div class="container-fluid">
-        <div class="row" id="skills">
         
-          <div class="col-md-4 animated fadeInLeft" id="school">
+        <div class="col-md-6">
+          <h1>Short little bio </h1>
+          <p>I am a fourteen-year old programmer from NJ in 9th grade. I live for video games and movies, the amount of pokemon I have played is not measurable.My main experience is with web development, making things look pretty is pretty fun (Pun Intended)</p>
+
+          <p>Currently a high school student at Bergen County Academies, passion drives me. Although I still have alot to learn, it's better to start now than never. Here's a button that makes a cat sound for fun.</p>
+
+          <a><button type="button" class="buttonCat">Meow</button></a><audio></audio>        
+        </div>
+      </div>
+    
+    <div>
+
+        <div class="row" id="skills">
+          <div class="col-md-6">
             <h1>Academics</h1>
             <p>High School: <a href="http://bcts.bergen.org/index.php/bergen-county-academies">Bergen County Academies</a></p>
             <p>Academy for Technology and Computer Science</p>
-                <h2>Freshmen 2015-2016</h2>
-                <ul>
-                  <li>Intro to Computer Science</li>
-                  <li>Intro to Java</li>
-                  <li>Introduction for Web Application Development</li>
-                </ul>
-
-                <h2>Sophomore 2016 - 2017</h2>
-                <ul>
-                  <li>AP Computer Science</li>
-                  <li>C and Data Structures</li>
-                </ul>
-
-                <h2>Junior 2017 - 2018</h2>
-                <ul>
-                  <li>A really hard class</li>
-                  <li>Some class I'll be crying about</li>
-                </ul>
-
-                <h2>Senior 2018 - 2019</h2>
-                <ul>
-                <li>Not even going to think about this year</li>
+              <h2>Freshmen 2015-2016</h2>
+              <ul>
+                <li>Intro to Computer Science</li>
+                <li>Intro to Java</li>
+                <li>Introduction for Web Application Development</li>
               </ul>
-
           </div>
 
-          <div class="col-md-8 animated fadeInRight" id="timeLine">
+          <div class="col-md-6" id="timeLine">
             <h1>Something will go here </h1>
             <p>If you just inspect element and look at the ID of this div tag, you'll know.</p>
-
-              <p>Give me time to work the mind<i class="fa fa-cog fa-spin fa-2x" id="icons"></i></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container" id="project">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="animated fadeInUp">Projects - <small>One day more will come</small></h1>
+            <p>Give me time to work the mind<i class="fa fa-cog fa-spin fa-2x"></i></p>
           </div>
         </div>
 
+      <div id="project">
+        <div class="row col-md-12">
+            <h1>Projects - One day more will come</h1>
+        </div>
+
         <div class="row">
-          <div class="col-md-6 animated fadeInLeft">
+          <div class="col-md-6">
             <h2>Secret Santa<a href="https://secretsantagarbage-benmirtchouk.c9users.io/"><i class="fa fa-link"></i></a></h2> 
             <img src="images/secretsanta.png">
 
           </div>
 
-          <div class="col-md-6 animated fadeInRight">
+          <div class="col-md-6">
           <p>It was created with my good friends Anoushka and Ben at a 12 hour hackathon (more like 9). It utilizes Facebook's API and basically is a Secret Santa generator. I worked on the front-end part with Anoushka mainly, as long as you're friends with one another on Facebook you're good to go. </p>
           </div>
         </div>
-
       </div>
 
     <script src="js/smoothscroll.js"></script>
-      <div class="container-fluid">
-        <div class="row centered">
           <div class="col-md-12" id="contact">
             <center>
               <h1>Contact Me</h1>
@@ -148,9 +109,6 @@
               <a href="https://github.com/jeffersonxu"><i class="fa fa-github fa-5x"id="icons"></i></a>
             </center>
           </div>
-        </div>
-      </div>
-
-      </div>
+        
 </body>
 </html>

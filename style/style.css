@@ -6,12 +6,7 @@
 	height: 100vh;
 	padding-top: 5%;
 	padding-bottom: 4%;
-}
-#titleColor{
 	background-color: #6ed3cf;
-}
-#titleIcon{
-	padding-left: 20px;
 }
 #title a{
 	color: white;

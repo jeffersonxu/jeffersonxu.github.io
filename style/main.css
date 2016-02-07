@@ -1,0 +1,106 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0;
+}
+img{
+	max-width: 100%;
+}
+#title{
+	height: 100vh;
+	background-color: #6ed3cf;
+	color: white;
+	padding: 10em;
+}
+#title h1{
+	font-size: 12em;
+}
+#title h2{
+	font-size: 3em;
+}
+#title h3{
+	font-size: 4em;
+}
+.button1:hover {
+    background-color: white; 
+    color: black; 
+    border: 3px solid white;
+    text-decoration: none;
+}
+#about-me{
+	padding: 10em;
+}
+#about-me h1{
+	font-size: 4.5em;
+}
+#about-me p{
+	font-size: 2.5em;
+}
+.buttonCat{
+	border: 2px solid #555555;
+	border-radius: 10px;
+    padding: 10px 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 34px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #555555;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.buttonCat:hover{
+	background-color: white;
+    color: black;
+    border-radius: 60%;
+}
+#skills{
+	padding-left: 10em;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	padding-right: 1em;
+	background-color: #006494;
+	color: white;
+}
+#skills h1{
+	font-size: 3.5em;
+}
+#skills p{
+	font-size: 2.5em;
+}
+#skills li{
+	font-size: 2em;
+}
+#project{
+	padding-left: 10em;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	padding-right: 1em;
+}
+#project h1{
+	font-size: 6em;
+}
+#project h2{
+	font-size: 4em;
+}
+#project p{
+	padding-top: 2em;
+	padding-left: -20em;
+	font-size: 3em;
+}
+#contact{
+	background-color: #13293D;
+	color: white;
+	padding: 5em;
+}
+#contact h1{
+	font-size: 8em;
+}
+i{
+	padding-left: .5em;
+}
+::selection{
+	background-color: #00ace6;
+	color: white;
+}
