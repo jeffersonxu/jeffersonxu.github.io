@@ -72,6 +72,10 @@ img{
 #skills li{
 	font-size: 2em;
 }
+#skills a{
+	color: white;
+	text-decoration: bold;
+}
 #project{
 	padding-left: 10em;
 	padding-top: 1em;
@@ -103,4 +107,27 @@ i{
 ::selection{
 	background-color: #00ace6;
 	color: white;
+}
+@media screen and (max-width: 1047px) {
+	#title h1{
+		font-size: 10em;
+	}
+	#title h2{
+		font-size: 2.5em;
+	}
+	#title h3{
+		font-size: 3.5em;
+	}
+}
+@media screen and (max-width: 991px) {
+	#title h1{
+		font-size: 8.5em;
+	}
+	#title h2{
+		font-size: 2.5em;
+	}
+	#title h3{
+		font-size: 3.5em;
+	}
+
 }
