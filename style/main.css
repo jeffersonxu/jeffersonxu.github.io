@@ -4,6 +4,11 @@ body{
 }
 img{
 	max-width: 100%;
+	
+}
+#me{
+	width: 35em;
+	height: 35em;
 }
 #title{
 	height: 100vh;
@@ -12,7 +17,7 @@ img{
 	padding: 10em;
 }
 #title h1{
-	font-size: 12em;
+	font-size: 10em;
 }
 #title h2{
 	font-size: 3em;
@@ -127,6 +132,59 @@ i{
 		font-size: 2.5em;
 	}
 	#title h3{
+		font-size: 3.5em;
+	}
+}
+@media screen and (max-width: 775px) {
+	#title{
+		padding-top: 10em;
+		padding-left: 5em;
+	}
+	#title h1{
+		font-size: 8em;
+	}
+}
+@media screen and (max-width: 740px) {
+	#title{
+		padding: 4em;
+	}
+	#title h1{
+		font-size: 6em;
+	}
+	#about-me{
+		padding: 4em;
+	}
+	#about-me p{
+		font-size: 2em;
+	}
+	#about-me h1{
+		font-size: 4em;
+	}
+	#skills{
+		padding: 4em;
+	}
+	#skills h1{
+		font-size: 4em;
+	}
+	#skills p{
+		font-size: 2em;
+	}
+	#project{
+		padding: 4em;
+	}
+	#project h1{
+		font-size: 4em;
+	}
+	#project h2{
+		font-size: 3em;
+	}
+	#project p{
+		font-size: 2em;
+	}
+	#contact h1{
+		font-size: 4em;
+	}
+	#contact i{
 		font-size: 3.5em;
 	}
 
