@@ -51,7 +51,21 @@
 
           <p>Currently a high school student at Bergen County Academies, trying to not fail at life. Sometimes I have no clue what I'm doing. Here's a button that makes a cat sound for fun.</p>
 
-          <a><button type="button" class="buttonCat">Meow</button></a><audio></audio>        
+          <script language="javascript">
+          function playIt()
+          {
+             document.getElementById("embed").innerHTML="<embed src='CatSound.mp3' autostart=true loop=false volume=100 hidden=true>";
+             return true;
+          }
+          </script>
+
+          <form action="" method="post">
+
+            <button type="button" class="buttonCat" onclick="playIt()">Meow</button>
+                    <div id="embed"></div>
+
+
+            </form>     
         </div>
       </div>
     

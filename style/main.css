@@ -187,5 +187,9 @@ i{
 	#contact i{
 		font-size: 3.5em;
 	}
+	#me{
+		 width: 10em;
+		 height: 10em;
+	}
 
 }
