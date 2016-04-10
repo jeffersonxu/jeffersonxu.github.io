@@ -1,124 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Jefferson Xu</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jefferson Xu</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <link rel="stylesheet" type="text/css" href="style/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
-	
-  <link rel="stylesheet" type="text/css" href="style/animate.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
-	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="style/main.css">
-
+    <link rel="stylesheet" type="text/css" href="css/cat.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 <body>
 
-  <!--<nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-      <a class="active" href="#">Jefferson Xu</a>
+
+  <div class="animate-me">
+      <div class="animated fadeIn" id="heart">
+          <h1><i class="fa fa-heart"></i> What You Do</h1>
+          <div id="title">
+            <h2>Jefferson Xu</h2>
+            <p>Developer - Student - Designer - Artist</p>
+          </div>
       </div>
-    </div>
-  </nav> --> 
-
-  <div class="page-content">
-      <div id="titleColor">
-        <div class="row col-md-12" id="title">
-            <div class="animated fadeInRightBig">
-              <h2 class="animated fadeInLeftBig">Hello There</h2>
-              <h1 >My name is </h1>
-              <h1>Jefferson Xu</h1>
-              <h3>~Pronounced like a shoe on a foot</h3>
-            </div>
-
-        </div>
-      </div>
-
-      <div class="row animated fadeInUp" id="about-me">
-        <div class="col-md-6">
-            <h1>About Me</h1>
-            <img src="images/me.jpg" class="img-circle" id="me">
-        </div>
-        
-        <div class="col-md-6">
-          <h1>Short little bio </h1>
-          <p>I am a fourteen-year old programmer from NJ in 9th grade. I live for video games and movies, the amount of pokemon I have played is not measurable. My main experience is with web development, making things look pretty is pretty fun (Pun Intended)</p>
-
-          <p>Currently a high school student at Bergen County Academies, trying to not fail at life. Sometimes I have no clue what I'm doing. Here's a button that makes a cat sound for fun.</p>
-
-          <script language="javascript">
-          function playIt()
-          {
-             document.getElementById("embed").innerHTML="<embed src='CatSound.mp3' autostart=true loop=false volume=100 hidden=true>";
-             return true;
-          }
-          </script>
-
-          <form action="" method="post">
-
-            <button type="button" class="buttonCat" onclick="playIt()">Meow</button>
-                    <div id="embed"></div>
-
-
-            </form>     
-        </div>
-      </div>
-    
-    <div>
-
-        <div class="row" id="skills">
-          <div class="col-md-6">
-            <h1>Academics</h1>
-            <p>High School: <a href="http://bcts.bergen.org/index.php/bergen-county-academies">Bergen County Academies</a></p>
-            <p>Academy for Technology and Computer Science</p>
-              <h2>Freshmen 2015-2016</h2>
-              <ul>
-                <li>Intro to Computer Science</li>
-                <li>Intro to Java</li>
-                <li>Introduction for Web Application Development</li>
-              </ul>
-          </div>
-
-          <div class="col-md-6" id="timeLine">
-            <h1>Something will go here </h1>
-            <p>If you just inspect element and look at the ID of this div tag, you'll know.</p>
-            <p>Give me time to work the mind<i class="fa fa-cog fa-spin fa-2x"></i></p>
-          </div>
-        </div>
-
-      <div id="project">
-        <div class="row col-md-12">
-            <h1>Projects - One day more will come</h1>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6">
-            <h2>Secret Santa<a href="https://secretsantagarbage-benmirtchouk.c9users.io/"><i class="fa fa-link"></i></a></h2> 
-            <img src="images/secretsanta.png">
-
-          </div>
-
-          <div class="col-md-6">
-          <p>It was created with friends Anoushka and Ben at a 12 hour hackathon (more like 9). It utilizes Facebook's API and basically is a Secret Santa generator. I worked on the front-end part with Anoushka mainly, as long as you're friends with one another on Facebook you're good to go. </p>
-          </div>
-        </div>
-      </div>
-
-    <script src="js/smoothscroll.js"></script>
-          <div class="col-md-12" id="contact">
-            <center>
-              <h1>Contact Me</h1>
-              <a href="https://www.facebook.com/jeffersonshoe"><i class="fa fa-facebook fa-5x" id="icons"></i></a>
-              <a href="mailto:jeffersonshoe@gmail.com"><i class="fa fa-envelope fa-5x"id="icons"></i></a>
-              <a href="https://www.instagram.com/jeffersonshoe/"><i class="fa fa-instagram fa-5x"id="icons"></i></a>
-              <a href="https://github.com/jeffersonxu"><i class="fa fa-github fa-5x"id="icons"></i></a>
-            </center>
-          </div>
-        
+  </div>
 </body>
 </html>
