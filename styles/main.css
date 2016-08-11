@@ -70,5 +70,9 @@ p{
   font-size: 60px;
   padding-right: 4rem;
 }
-.btn{
+.showcase{
+	padding-bottom: 20px;
+}
+.showcase i{
+	padding-left: 10px;
 }
