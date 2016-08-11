@@ -32,7 +32,7 @@ p{
 	border-right: 15px solid #ffffff;
 }
 .about{
-	height: 100vh;
+	height: 80vh;
 	background-color: #ffffff;
 	color: #000000;
 	padding-top: 10rem;
@@ -40,16 +40,32 @@ p{
 }
 .about-border{
 	border-left: 15px solid #000000;
-	height: 75vh;
-}
-.about-wrapper{
+	height: 60vh;
 }
 .header{
 	font-size: 60px;
+	padding-bottom: 30px;
 }
 .profile{
 	width: 50%;
  	display: block;
     margin: 0 auto;
     margin-top: 100px;
+}
+.projects{
+	height: 90vh;
+}
+.contact{
+	background-color: #000000;
+	color: #ffffff;
+	padding-top: 14rem;
+	height: 60vh;
+}
+.social ul{
+  list-style: none;
+}
+.social li{
+  display: inline;
+  font-size: 60px;
+  padding-right: 4rem;
 }
