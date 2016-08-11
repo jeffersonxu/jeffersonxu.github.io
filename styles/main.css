@@ -100,5 +100,28 @@ p{
 	.project-wrapper h1{
 		padding-top: 30px;
 	}
+	.profile{
+		margin-top: 0;
+	}
 
+@media only screen and (max-width: 992px) {
+	.profile{
+		width: 30%;
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.main h1{
+		font-size: 60px;
+		padding-top: 10rem;
+		padding-bottom: 10px;
+		letter-spacing: 4px;
+	}
+	.about-border{
+		border: none;
+		height: inherit;
+	}
+	.about-wrapper h1{
+		text-align: center;
+	}
 }
