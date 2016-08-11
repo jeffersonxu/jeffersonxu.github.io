@@ -125,3 +125,16 @@ p{
 		text-align: center;
 	}
 }
+@media only screen and (max-width: 600px) {
+	.main{
+		padding-top: 0rem;
+	}
+	.title{
+		border: none;
+	}
+	.social li{
+	  display: inline;
+	  font-size: 30px;
+	  padding-right: 2rem;
+	}
+}
