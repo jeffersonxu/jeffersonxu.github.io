@@ -137,4 +137,7 @@ p{
 	  font-size: 30px;
 	  padding-right: 2rem;
 	}
+	.profile{
+		width: 60%;
+	}
 }
