@@ -58,8 +58,8 @@ p{
 .contact{
 	background-color: #000000;
 	color: #ffffff;
-	padding-top: 14rem;
-	height: 60vh;
+	padding-top: 7rem;
+	padding-bottom: 5rem;
 }
 .social ul{
   list-style: none;
@@ -75,4 +75,30 @@ p{
 }
 .showcase i{
 	padding-left: 10px;
+}
+@media only screen and (max-width: 1200px) {
+	.header{
+		font-size: 40px;
+		padding-bottom: 0;
+	}
+	p{
+		font-size: 17px;
+		line-height: 30px;
+	}
+	.about-border{
+		height: 50vh;
+	}
+	.title, .about, .projects, .contact{
+		height: inherit;
+	}
+	.showcase h2{
+		font-size: 24px;
+	}
+	.social li{
+		font-size: 40px;
+	}
+	.project-wrapper h1{
+		padding-top: 30px;
+	}
+
 }
