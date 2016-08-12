@@ -76,6 +76,9 @@ p{
 .showcase i{
 	padding-left: 10px;
 }
+.about-wrapper h1{
+	text-align: left;
+}
 @media only screen and (max-width: 1250px) {
 	.header{
 		font-size: 40px;
