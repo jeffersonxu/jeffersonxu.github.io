@@ -76,7 +76,7 @@ p{
 .showcase i{
 	padding-left: 10px;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
 	.header{
 		font-size: 40px;
 		padding-bottom: 0;
