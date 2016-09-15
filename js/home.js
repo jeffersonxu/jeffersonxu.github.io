@@ -162,9 +162,9 @@ $(document).ready(function(){
 		var items = [
 		  "I create cool websites",
 		  "I build simple apps",
-		  "I binge watch Netflix",
-		  "I am a pianist and ukuele enthusiast",
-		  "I love making people smile :)"
+		  "I am a ukulele and piano enthusiast",
+		  "I am a high school student",
+		  "Life Motto: Love What You Do"
 		];
 		/* END SETTINGS */
 
