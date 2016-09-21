@@ -163,8 +163,8 @@ $(document).ready(function(){
 		  "I create cool websites",
 		  "I build simple apps",
 		  "I am a ukulele and piano enthusiast",
-		  "I am a high school student",
-		  "Life Motto: Love What You Do"
+		  "I wish unicorns existed",
+		  "Imagination + Creativity = Design"
 		];
 		/* END SETTINGS */
 
