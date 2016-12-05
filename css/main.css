@@ -1123,7 +1123,7 @@ p {
         font-size: 3em;
     }
     #about-section #desc{
-        font-size: 1.8em;
+        font-size: 3em;
         line-height: 1.5em;
     }
 
@@ -1131,6 +1131,19 @@ p {
 }
 
 @media (max-width: 380px) {
+    #home-section .home-content h1 {
+        font-size: 2em;
+        line-height: 1.4em
+    }
+    #home-section .title-button{
+        font-size: .7em;
+    }
+
+    #home-section .home-content .vertical-middle{
+        padding: 0em 1em 6em 4em
+    }
+
+
     #home-section #logo-animation {
         right: 20px
     }
@@ -1140,6 +1153,11 @@ p {
     #home-section .home-content {
         padding-top: 70px
     }
+    #about-section #desc{
+        font-size: 1.8em;
+        line-height: 1.5em;
+    }
+
 }
 
 @media (max-height: 415px) {
@@ -1170,7 +1188,7 @@ p {
 #about-section{
     background: #202325;
     color: #fff;
-    padding: 120px 120px 130px 120px;
+    padding: 10em;
 }
 
 #about-section a{
@@ -1435,13 +1453,13 @@ p {
 
 @media (max-width: 460px) {
     #contact-section p, #about-section .profile-desc {
-        font-size: 1.5em
+        font-size: 1.7em
     }
     #about-section .title{
-        font-size: 3em;
+        font-size: 2.5em;
     }
     #projects-section h1{
-        font-size: 2em;
+        font-size: 2.5em;
     }
 }
 
