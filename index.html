@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Jefferson Xu | Backend Developer</title>
-        <meta name="description" content="I'm a Back End Developer and UI UX Designer with professional experience building adaptive and responsive websites and mobile applications based in the New York Area.">
-        <meta name="keywords" content="Web Developer, Back End developer, Portfolio, HTML5, CSS3， Sass, JavaScript, jQuery, Backbone, Node.js, PHP, MySQL, Git">
+        <meta name="description" content="I'm a Student Back End Web Developer">
+        <meta name="keywords" content="Web Developer, Back End developer, Portfolio, HTML5, CSS3，Sass, JavaScript, jQuery, Backbone, Node.js, PHP, MySQL, Git">
         <meta name="author" content="Jefferson Xu">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -23,6 +23,7 @@
         <meta name="theme-color" content="#ffffff">
         <!-- end icons -->
 
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/master.js"></script>
@@ -46,32 +47,58 @@
 <section id="home-section">
     <div class="home-content vertical-outer">
       <div class="vertical-middle">
-        <div class="vertical-inner"></div>
-            <h1>I'm Jefferson Xu, a<br>
-            <h1>Backend Developer.</h1>
-        <div class="type-container"><div class="type-container-inner"><div id="output"></div></div></div>
+        <h1>Hi there<br>
+        <h1>My name is <span id="name">Jeff Xu</span></h1>
+        <h3 class="sub-name">Student Web Developer</h3>
+        <button class="title-button"><a href="#about-section">Interested?</a></button>
     </div>
   </div>
-  <div id="logo-animation"><img src="img/logo_animation.gif" alt="loading..."></div>
 </section>
 
 <section id="about-section">
-    <div>
-      <h1 class="title">Hi there,</h1>
-      <div class="profile-wrapper">
-        <h2 class="profile-desc">I'm a high school student currently attending <a href="https://bcts.bergen.org/index.php/2016-05-10-17-30-50/bcts-campuses">Bergen County Academies</a>. I love creating <span class="secondary">web applications</span> and playing around with new technologies. I consider myself primarily a <span class="secondary">back end developer</span>, but I do still enjoy dabbling around design. Feel free to check out some of my work <a href="https://github.com/jeffersonxu">here</a>!</h2>
+    <div class="profile-wrapper row">
+      <div class="col-md-12">
+        <h1 class="title">About Me</h1>
+         <h2 id="desc" class="profile-desc">I'm a high school student currently attending <a href="https://bcts.bergen.org/index.php/2016-05-10-17-30-50/bcts-campuses">Bergen County Academies</a>. I love creating web applications and playing around with new technologies. I consider myself primarily a back end developer, but I do still enjoy dabbling around design. Feel free to check out some of my work <a href="https://github.com/jeffersonxu">here</a>!</h2>  
+
+        <h1 class="title">Skills</h2>
+        <h2 id="desc">Languages: HTML, CSS, Javascript, Python, Java, C++, SQL</h2> 
+        <h2 id="desc">Technologies: Git, Flask, Node, MongoDB, Firebase, jQuery</h2>
       </div>
+     
     </div>
 </section>
 
 <section id="projects-section">
-  <h1>Currently in hibernation mode, projects are to come soon.</h1>
+  <h1>Projects</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Secret Santa Generator</h2>
+      <p>At All Stars Hack NY (2015) we implemented Facebook's API to allow users to create a simple secret santa for them and a group of friends. We just used standard PHP to do the server side scripting just in time for the holidays.</p>
+    </div>
+
+    <div class="col-md-6">
+      <h2>Redesign of School's Admission's Page</h2>
+      <p>Our school wanted a fresh design to their outdated and old page to create a friend user experience to new prospective students applying to our magnet school. UX was on our top priority and kept our school pride within the website too!</p>
+    </div>
+
+    <div class="col-md-6">
+      <h2>Bamboo</h2>
+      <p>At the end of a start-up accelerator camp within Boston, I was a cofounder of a company that promoted simple financial literacy. I was the web developer and helped with our server side of the iOS app created.</p>
+    </div>
+
+    <div class="col-md-6">
+      <h2>Tegos (Work in Progress)</h2>
+      <p>At Pennapps Fall 2016, a friend and I attempted to create a Twitter geolocation app. It parsed tweets for geocodes and then we would use that in junction with Google Map's API. It was built using Flask and Firebase</p>
+    </div>
+
+  </div>
 </section>
 
 <section id="contact-section">
     <div class="contact-section-wrapper fade-slide-up-element-2">
+    <p>Still interested?</p>
     <p>You can reach out to me or just to say hi at <a href="mailto:me@jeffersonxu.com">me@jeffersonxu.com</a>.</p>
-    <p>For more about me, I'm also on<br><a href="https://www.instagram.com/jeffersonshoe/" target="_blank">instagram</a> & <a href="https://www.facebook.com/jeffersonshoe" target="_blank">facebook</a> & <a href="https://www.linkedin.com/in/jeffersonshoe" target="_blank">linkedin</a>.</p>
     </div>
 </section>
 
