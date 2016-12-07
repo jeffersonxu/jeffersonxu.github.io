@@ -1116,7 +1116,7 @@ p {
         padding: 0 1em 10em 4em;
     }
     #home-section .title-button{
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     #about-section h1, #projects-section h1{
@@ -1153,11 +1153,6 @@ p {
     #home-section .home-content {
         padding-top: 70px
     }
-    #about-section #desc{
-        font-size: 1.8em;
-        line-height: 1.5em;
-    }
-
 }
 
 @media (max-height: 415px) {
@@ -1221,6 +1216,23 @@ p {
     font-size: 1.4em;
     line-height: 1.7em;
     padding-bottom: 1em;
+}
+
+.git-icon{
+    display: inline;
+    margin-left: .4em;
+    color: #333;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.git-icon:hover{
+    -webkit-animation: bump .25s ease-in-out;
+    -moz-animation: bump .25s ease-in-out;
+    animation: bump .25s ease-in-out;
+    cursor: pointer
+
 }
 
 #projects-section ul {
