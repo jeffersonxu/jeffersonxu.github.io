@@ -1123,8 +1123,8 @@ p {
         font-size: 3em;
     }
     #about-section #desc{
-        font-size: 3em;
-        line-height: 1.5em;
+        font-size: 1.5em;
+        line-height: 1.7em;
     }
 
 
@@ -1420,7 +1420,7 @@ p {
 
 @media (max-width: 736px) {
     #contact-section, #about-section, #projects-section {
-        padding: 100px 30px 110px 30px
+        padding: 70px 30px 80px 30px
     }
 }
 
