@@ -83,6 +83,14 @@ $(document).ready(function(){
         $(target).goTo();
 	});
 
+	// button scroll
+	$('.title-button').find('a[href*=#]').click(function(e){     
+	    e.preventDefault();
+	    var target = $(this).attr('href');
+        $(target).goTo();
+	});
+
+
 	(function($) {
 	    $.fn.goTo = function() {
 	        $('html, body').animate({
