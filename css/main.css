@@ -1610,8 +1610,8 @@ p {
 
 @media (max-width: 900px) {
     #about-section .about-right {
-    	background: #181a1b;
-	}
+        background: #181a1b;
+    }
     #about-section .about-right .about-right-inner .about-right-content {
         padding: 0 30px;
         text-align: left
