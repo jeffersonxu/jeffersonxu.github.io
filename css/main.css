@@ -1136,6 +1136,7 @@ p {
         line-height: 1.2em
     }
     #home-section .title-button{
+        border: 1.5px solid black;
         font-size: .7em;
     }
 
