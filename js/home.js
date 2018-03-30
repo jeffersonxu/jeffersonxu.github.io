@@ -1,5 +1,3 @@
-// *********** I intentionally did not apply "Minification" on the javascript code here in order for you to see and evaluate my javascript code. ************
-
 $(document).ready(function(){
 	/*----- user agent ------*/
 	var router,pushstate=false,mobile=false,retina=false,mp4=false,ipad=false,iphone=false,ie=false,ie8=false,android=false,firstpage = true;

@@ -1133,7 +1133,7 @@ p {
 @media (max-width: 380px) {
     #home-section .home-content h1 {
         font-size: 2em;
-        line-height: 1.4em
+        line-height: 1.2em
     }
     #home-section .title-button{
         font-size: .7em;
@@ -1143,15 +1143,11 @@ p {
         padding: 0em 1em 6em 4em
     }
 
-
     #home-section #logo-animation {
         right: 20px
     }
     #home-section #logo-animation img {
         width: 80px
-    }
-    #home-section .home-content {
-        padding-top: 70px
     }
 }
 
