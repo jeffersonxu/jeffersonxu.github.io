@@ -1,2 +1,2 @@
 # jeffersonxu.github.io
-Personal Site redirected at jeffersonxu.com
+Personal Site redirected [jeffersonxu.com](http://jeffersonxu.com/)
