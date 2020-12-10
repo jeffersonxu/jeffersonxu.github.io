@@ -22,13 +22,13 @@ h1 {
     font-weight: 500;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 4em;
+    font-size: 3.5em;
     margin: 0;
     line-height: 1em;
 }
 h3 {
     font-family: Graphik-reg;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.5em;
     font-weight: 400;
 }
@@ -45,22 +45,22 @@ h3 a:hover {
     color: #fff;
     background-size: 4px 50px;
 }
-#home-section {
+section {
     display: flex;
     align-items: center;
 }
-.name {
+h1 span {
     color: #00a4ccff;
 }
-.purple {
+h3 span {
     font-family: Graphik-bold;
     color: #4e2a84;
 }
-.home-text {
+.container {
     padding: 5em;
     width: 75%;
 }
-#home-section #logo-animation {
+section #logo-animation {
     position: absolute;
     right: 30px;
     bottom: 0;
@@ -96,12 +96,6 @@ h3 a:hover {
     -ms-transition: fill 0.2s ease-in-out;
     transition: fill 0.2s ease-in-out;
 }
-.social-container ul li a:hover div {
-    -webkit-animation: bump 0.25s ease-in-out;
-    -moz-animation: bump 0.25s ease-in-out;
-    animation: bump 0.25s ease-in-out;
-    cursor: pointer;
-}
 .social-container ul li a:hover div svg path {
     fill: #00a4ccff;
 }
@@ -109,18 +103,12 @@ h3 a:hover {
     #logo-animation img {
         width: 140px;
     }
-    h1 {
-        font-size: 3em;
-    }
-    h3 {
-        font-size: 1.5em;
-    }
 }
 @media (max-width: 768px) {
-    #home-section #logo-animation img {
+    section #logo-animation img {
         width: 80px;
     }
-    .home-text {
+    .container {
         width: 100%;
         padding: 1.6em;
     }

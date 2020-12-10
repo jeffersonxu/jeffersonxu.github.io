@@ -75,14 +75,14 @@ $(document).ready(function(){
 	}, false);
 
 	// header scroll to section
-	$('#header-container').find('a[href*=#]').click(function(e){     
+	$('#header-container').find('a[href*=#]').click(function(e){
 	    e.preventDefault();
 	    var target = $(this).attr('href');
         $(target).goTo();
 	});
 
 	// button scroll
-	$('.title-button').find('a[href*=#]').click(function(e){     
+	$('.title-button').find('a[href*=#]').click(function(e){
 	    e.preventDefault();
 	    var target = $(this).attr('href');
         $(target).goTo();
@@ -107,7 +107,7 @@ $(document).ready(function(){
 
 	var winHeight  = window.innerHeight;
 	if (testEl.height() != winHeight) {
-	    $('#home-section').height(winHeight);
+	    $('section').height(winHeight);
 	}
 
 	if (!mobile) {
